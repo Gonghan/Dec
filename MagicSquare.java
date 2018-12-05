@@ -3,6 +3,11 @@ package Dec;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * Choose any n integers in a square(n * n) and each two numbers are not from the same row or
+ * column. If the sum of these numbers is the same, we call this square the 'magic square'. Given a
+ * 2D array(n * n) of integers, find out if this square is a magic square.
+ */
 public class MagicSquare {
 
   static int[][] A = {{1, 2}, {3, 4}};
